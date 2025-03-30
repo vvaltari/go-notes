@@ -4,8 +4,9 @@ import (
 	"fmt"
 )
 
+const birthDate = "01/01/1999"
+
 func main() {
-	const birthDate = "01/01/1999"
 	name, lastName := "John", "Doe"
 	var wallet float64 = 541
 

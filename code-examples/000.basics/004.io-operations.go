@@ -5,8 +5,9 @@ import (
 	"math"
 )
 
+const inflationRate = 2.5
+
 func main() {
-	const inflationRate = 2.5
 	var investmentAmount, expectedReturnRate, years float64
 
 	fmt.Print("Investment amount: ")
